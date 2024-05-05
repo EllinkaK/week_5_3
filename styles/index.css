@@ -17,15 +17,16 @@ body {
 }
 .main {
   display: flex;
-  justify-content: space-around;
 }
 .main2 {
   display: flex;
+  flex-wrap: wrap;
 }
 .main2_div {
   background-color: rgba(207, 207, 82, 0.916);
   padding: 20px;
   margin: 10px;
+  min-width: 300px;
 }
 .main1 {
   background-color: rgba(234, 239, 126, 0.916);
@@ -34,8 +35,11 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: rgb(178, 166, 166);
+  flex-wrap: wrap;
 }
 .aside {
+  display: flex;
+  flex-grow: 1;
   background-color: rgb(179, 235, 149);
 }
 .footer_div {
@@ -46,4 +50,10 @@ body {
 .h1 {
   display: flex;
   justify-content: center;
+  padding: 20px;
+}
+.aside {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
