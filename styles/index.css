@@ -24,12 +24,14 @@ body {
 }
 .main2_div {
   background-color: rgba(207, 207, 82, 0.916);
-  padding: 20px;
+  /* padding: 20px; */
   margin: 10px;
   min-width: 300px;
+  flex-grow: 1;
 }
 .main1 {
   background-color: rgba(234, 239, 126, 0.916);
+  max-width: 650px;
 }
 .footer {
   display: flex;
@@ -47,7 +49,7 @@ body {
   background-color: #fff;
   margin: 10px;
 }
-.h1 {
+.p1 {
   display: flex;
   justify-content: center;
   padding: 20px;
