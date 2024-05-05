@@ -4,13 +4,14 @@
   padding: 0px;
 }
 .header_text {
+  display: flex;
   background-color: rgb(178, 166, 166);
   padding: 20px;
+  justify-content: center;
 }
 .main {
   display: flex;
   justify-content: space-around;
-  flex-grow: 1;
 }
 .main2 {
   display: flex;
@@ -35,4 +36,8 @@
   padding: 20px;
   background-color: #fff;
   margin: 10px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
 }
